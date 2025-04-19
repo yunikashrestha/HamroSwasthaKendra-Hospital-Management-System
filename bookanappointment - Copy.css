@@ -1,0 +1,70 @@
+#bookappointment{
+    margin:50px 20px 0 20px;
+    padding-bottom: 6rem;
+}
+.head1{
+   margin:80px 0 0 80px;
+    font-size: 30px;
+    font-weight: 8px;
+    color:rgb(37, 37, 37);
+    /* display: flex;
+    justify-content: center; */
+
+}
+.search{
+height:35px;
+width:1200px;
+border-radius: 2px;
+border:1px solid rgb(143, 143, 143);
+box-shadow: 0 0 30px rgba(98, 170, 242, 0.5);
+margin:10px 20px 0 80px;
+}
+
+input:focus {
+    outline: none;
+}
+.searchtext{
+    font-size: 25px;
+    margin: 40px 0 0 80px;
+    color:rgb(59, 59, 59);   
+}
+.box{
+    margin-top: 30px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: left;
+    gap:30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+ 
+    
+   
+    
+}
+.box1{
+    border:1px solid rgb(167, 167, 167);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap:10px;
+    transition: all 0.5s ease-in-out;
+    
+   
+
+}
+.boxtext{
+  
+    font-size: 20px;
+    color:rgb(61, 61, 61);
+    
+   
+
+}
+.box1:hover{
+    scale: 1.07;
+    border: 1.5px solid  #004080;
+    border-radius: 0.5rem;
+
+}
+

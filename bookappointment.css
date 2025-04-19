@@ -1,0 +1,59 @@
+.appointment{
+
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border:1px solid rgb(202, 202, 204);
+    border-radius: 10px;
+    padding: 20px 50px;
+    width: 1000px;
+    margin-top: 20px;
+    margin-left:30px;
+    margin-bottom: 50px;
+  }
+  .doctor-profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 50px;
+    object-fit: cover;
+
+  }
+  .s{
+    display:flex;
+    justify-content: center;
+    font-size:30px;
+    font-weight: bold;
+    color: #004080;
+    padding:20px;
+    
+  }
+  .doctor-info {
+    flex:3;
+  }
+  .doctor-name {
+    font-size:30px;
+    font-weight: bold;
+    color: #004080;
+    margin: 0;
+  }
+  
+  .doctor-designation {
+    font-size: 20px;
+    color: #6c757d;
+    padding-top:5px;
+    margin: 15px 0 0;
+  }
+  .feature{
+    padding-left: 5px;
+    font-size: 18px;
+    color:rgb(141, 137, 132);
+  }
+.b{
+    background-color:#004080;
+    padding:10px 20px;
+    border-radius: 0.5rem;
+    border:1px solid #004080;
+    margin-top: 30px;
+  }
+  

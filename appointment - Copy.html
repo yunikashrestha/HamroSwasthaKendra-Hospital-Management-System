@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamro Swastha Kendra</title>
+    <link rel="icon" href="Images/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="appointment.css">
+</head>
+
+<body>
+    <div id="navig">
+        <a href="Landing_Page.html">
+            <img src="Images1/Logo(nav).png" alt="Logo Of Hospital">
+        </a>
+    
+        <div id="nav-item">
+            <ul>
+                <li><a href="Landing_Page.html">About Us</a></li>
+                <li><a href="Knowyourdoctors.html">Know Your Doctors</a></li>
+                <li><a href="bookanappointment1.html">Book an Appointment</a></li>
+                <li><a href="HealthPackages.html">Health Packages</a></li>
+            </ul>
+        </div>
+    
+        <div class="search-container">
+            <input type="text" placeholder="Search..." class="search-bar">
+            <a href="#SEARCH" class="button">Search</a>
+            <a href="Login.html" class="button">Login</a>
+        </div>
+    </div>
+    
+
+    <div class="appointment">
+        <div class="daybox">
+
+            <div class="doctorphoto"><img src="images/nagma.jpeg" style="height:100%;width:100%;object-fit:contain;">
+            </div>
+            <div class="appointdoctorname">
+                <div class="name">Dr.Nagma Shrestha</div>
+                <div style="color:rgb(98, 98, 98);font-size: 19px;">MBBS,MD</div>
+
+                <div class="days">
+                    <div class="day">Sun</div>
+                    <div class="day">Mon</div>
+                    <div class="day">Tues</div>
+                    <div class="day">Wed</div>
+                    <div class="day">Thu</div>
+                    <div class="day">Fri</div>
+
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+        <div class="calendar-container">
+            <div class="calendar-header">
+                <button id="prevMonth"class="button">&lt;</button>
+                <h2 id="monthYear"></h2>
+                <button id="nextMonth"class="button">&gt;</button>
+            </div>
+            <table class="calendar">
+                <thead>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody id="calendarBody"></tbody>
+            </table>
+        </div>
+
+        <!-- Appointment Booking Modal -->
+        <div id="appointmentModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1>Book Appointment</h1>
+                <p id="selectedDateText"></p>
+                <div style="display: grid;grid-template-columns: 1% 99% ;gap:20px;">
+                    <div class="hello">Name:</div><div><input type="text" id="patientName" placeholder="Patient Name"></div>
+                    <div class="hello">Address:</div> <div><input type="text" id="patientName" placeholder=" Address"></div>
+                    <div class="hello">Age: </div> <div><input type="number" id="patientName" placeholder=" Age"></div>
+                    <div class="hello">Phone:</div> <div><input type="number" id="patientName" placeholder=" Phone"></div>
+                    <div class="hello">Time:</div><div><input type="time" id="appointmentTime"></div>
+                </div>
+                
+                <div><button id="saveAppointment">Book Appointment</button></div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
+
+
+
+<div class="helpdesk">
+    Unable to find suitable schedule,please call at our helpdesk 014322200
+</div>
+</div>
+<footer>
+    <div id="hospital_logo">
+        <a href="Landing_Page.html">
+            <img src="Images1/Logo.png" alt="Hospital Logo">
+        </a>
+        <p>Paknajol, Thamel, Nepal</p>
+        <p><strong>Email:</strong> HamroSwasthaKendra@gmail.com</p>
+        <p><strong>Phone:</strong> +98888888888888</p>
+        <p><strong>Fax:</strong> +99999999999</p>
+        <p><strong>Helicopter & Air Ambulance:</strong> +977-9801285000</p>
+    
+        <div class="social-media">
+            <p style="color:#2582A1;">Follow Us</p>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="footer-links">
+        <div class="column">
+            <p class="heading">Overview</p>
+            <ul>
+                <li>Medical Technology</li>
+                <li>Specialties</li>
+                <li>Team</li>
+                <li>Quality & Safety</li>
+                <li>Testimonials</li>
+            </ul>
+        </div>
+        <div class="column">
+            <p class="heading">Resources</p>
+            <ul>
+                <li>Health Professionals</li>
+                <li>International Students</li>
+                <li>Nursing Journal</li>
+                <li>COVID-19 Resources</li>
+                <li>Downloads</li>
+            </ul>
+        </div>
+        <div class="column">
+            <p class="heading">Patient Info</p>
+            <ul>
+                <li>Visitor Information</li>
+                <li>Health Info</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="newsletter">
+        <form>
+            <label for="email" style=" color:#2582A1; font:bolder;">Subscribe to Our Newsletter:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+    <div class="privacy">
+        <ul>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms-of-use">Terms of Use</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
