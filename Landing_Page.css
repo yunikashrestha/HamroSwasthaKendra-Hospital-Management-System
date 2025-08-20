@@ -208,7 +208,7 @@ html, body {
 }
 #Backbtn, #Frontbtn {
     position: absolute;
-    top: 122%;
+    top: 150%;
     transform: translateY(-50%);
     background-color: white;
     border: none;

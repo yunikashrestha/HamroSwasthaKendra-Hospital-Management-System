@@ -88,7 +88,7 @@
         <li> Child-friendly environment to make visits stress-free.</li>
         <li> Comprehensive services including newborn care and adolescent health.</li>
     </ul>
-    <a href="BookAnAppointment.html" class="appointment-btn">Book an Appointment</a>
+    <a href="bookanappointment1.html" class="appointment-btn">Book an Appointment</a>
 </section>
 </div>
 </div>

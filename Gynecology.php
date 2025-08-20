@@ -90,7 +90,7 @@
             <li> Comprehensive services ranging from routine check-ups to complex treatments.</li>
             <li> Supportive, compassionate, and private environment to ensure your comfort.</li>
         </ul>
-        <a href="BookAnAppointment.html" class="appointment-btn">Book an Appointment</a>
+        <a href="bookanappointment1.html" class="appointment-btn">Book an Appointment</a>
     </section>
     
 

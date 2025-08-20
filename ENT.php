@@ -90,7 +90,7 @@
             <li> Access to advanced diagnostic tools for accurate results.</li>
             <li> A patient-centered approach to ensure comfort during visits.</li>
         </ul>
-        <a href="BookAnAppointment.html" class="appointment-btn">Book an Appointment</a>
+        <a href="bookanappointment1.html" class="appointment-btn">Book an Appointment</a>
     </section>
     
 

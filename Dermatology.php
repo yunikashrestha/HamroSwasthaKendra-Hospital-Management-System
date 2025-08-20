@@ -90,7 +90,7 @@
             <li> State-of-the-art technology for accurate diagnosis and effective treatments.</li>
             <li> A patient-centered approach to ensure comfort and satisfaction during visits.</li>
         </ul>
-        <a href="BookAnAppointment.html" class="appointment-btn">Book an Appointment</a>
+        <a href="bookanappointment1.html" class="appointment-btn">Book an Appointment</a>
     </section>
     
 </div>

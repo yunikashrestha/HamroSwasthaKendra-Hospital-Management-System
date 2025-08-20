@@ -90,7 +90,7 @@
             <li> State-of-the-art lung function testing to ensure accurate diagnosis and treatment.</li>
             <li> Compassionate care with a focus on improving your quality of life through better lung health.</li>
         </ul>
-        <a href="BookAnAppointment.html" class="appointment-btn">Book an Appointment</a>
+        <a href="bookanappointment1.html" class="appointment-btn">Book an Appointment</a>
     </section>
     
 

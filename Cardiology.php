@@ -90,7 +90,7 @@
             <li> Access to advanced diagnostic tools for accurate results.</li>
             <li> Focused on prevention and early intervention for better long-term health.</li>
         </ul>
-        <a href="BookAnAppointment.html" class="appointment-btn">Book an Appointment</a>
+        <a href="bookanappointment1.html" class="appointment-btn">Book an Appointment</a>
     </section>
     
 

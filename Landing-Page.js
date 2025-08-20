@@ -1,26 +1,28 @@
-document.addEventListener("DOMContentLoaded", function () {
-    let scrollContainer = document.querySelector(".Specials");
-    let backBtn = document.getElementById("Backbtn");
-    let nextBtn = document.getElementById("Frontbtn");
+let slideIndex = 0;
+let slides = document.getElementsByClassName("mySlides");
 
-    if (scrollContainer && backBtn && nextBtn) {
-        // Set smooth scrolling globally
-        scrollContainer.style.scrollBehavior = "smooth";
+function showSlides(next = true) {
+    let currentSlide = slides[slideIndex];
 
-        // Mouse wheel scrolling
-        scrollContainer.addEventListener("wheel", (evt) => {
-            evt.preventDefault();
-            scrollContainer.scrollBy({ left: evt.deltaY, behavior: "smooth" });
-        });
+    // Remove active class from the current slide
+    currentSlide.classList.remove("active");
+    currentSlide.classList.add(next ? "prev" : "next");
 
-        // Next button
-        nextBtn.addEventListener("click", () => {
-            scrollContainer.scrollBy({ left: 900, behavior: "smooth" });
-        });
+    // Update slide index
+    slideIndex = next ? (slideIndex + 1) % slides.length : (slideIndex - 1 + slides.length) % slides.length;
 
-        // Back button
-        backBtn.addEventListener("click", () => {
-            scrollContainer.scrollBy({ left: -900, behavior: "smooth" });
-        });
-    }
+    let nextSlide = slides[slideIndex];
+
+    // Ensure the next slide is ready
+    nextSlide.classList.remove("prev", "next");
+    nextSlide.classList.add("active");
+
+    // Automatically move to next slide after 3s
+    setTimeout(() => showSlides(true), 3000);
+}
+
+// Start the slideshow
+document.addEventListener("DOMContentLoaded", () => {
+    slides[slideIndex].classList.add("active");
+    setTimeout(() => showSlides(true), 3000);
 });

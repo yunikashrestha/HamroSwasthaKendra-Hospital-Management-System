@@ -95,7 +95,7 @@
         <li> Comfortable and welcoming environment to ensure a stress-free experience.</li>
         <li> Wide range of services including preventive care, diagnostics, and chronic disease management.</li>
     </ul>
-    <a href="BookAnAppointment.html" class="appointment-btn">Book an Appointment</a>
+    <a href="bookanappointment1.html" class="appointment-btn">Book an Appointment</a>
 </section>
 
 </div>

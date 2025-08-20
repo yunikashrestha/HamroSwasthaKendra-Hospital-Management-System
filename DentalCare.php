@@ -95,7 +95,7 @@
             <li>Comfortable and welcoming environment for all patients.</li>
             <li>State-of-the-art technology for accurate diagnosis and treatments.</li>
         </ul>
-        <a href="BookAnAppointment.html" class="appointment-btn">Book an Appointment</a>
+        <a href="bookanappointment1.html" class="appointment-btn">Book an Appointment</a>
     </section>
 
     </div>

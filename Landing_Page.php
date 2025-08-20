@@ -123,7 +123,7 @@ include("connect.php"); // Database connection
         </div>
     </div>
     </div>
-    <script src ="Landing_Page.js"></script>
+    <script src ="Landing-Page.js"></script>
 </body>
 <footer>
     <div id="hospital_logo">
